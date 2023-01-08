@@ -351,7 +351,7 @@ input:hover {
     border-left: 1px solid #f777a9;
     width: 40px;
     height: 40px;
-    padding-left: -10%;
+    margin-left: 43%;
   }
   .increase {
     margin-top: -10.5%;
