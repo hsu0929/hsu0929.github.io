@@ -1,0 +1,231 @@
+.all {
+  width: 85%;
+  margin: auto;
+  padding: 4% 3%;
+}
+
+.top {
+  width: 80%;
+  margin: 1%;
+  display: flex;
+}
+
+.top img {
+  height: 35px;
+}
+
+.candy {
+  display: flex;
+  width: 600px;
+  margin-left: 35%;
+  margin-top: -0.7%;
+}
+
+input {
+  border: 0;
+  background-color: #fff;
+  color: #ff88b8;
+  border-radius: 60px;
+  border: 3px solid #ff88b8;
+  font-family: "jf-openhuninn-1.1";
+  cursor: pointer;
+  margin: 10%;
+}
+
+input:hover {
+  color: #ffffff;
+  background-color: #ff88b8;
+  border: 3px #ff88b8 solid;
+}
+.candy1 {
+  font-size: 19px;
+  font-weight: 1000;
+}
+.candy2 {
+  margin-left: 3%;
+  font-size: 19px;
+  font-weight: 1000;
+}
+.candy3 {
+  margin-left: 3%;
+  font-size: 19px;
+  font-weight: 1000;
+}
+.down {
+  width: 85%;
+  display: flex;
+}
+.left-ad {
+  width: 644px;
+  margin: 5% 2%;
+  padding: auto;
+}
+.right-content {
+  width: 320px;
+  margin: 7% 1%;
+  padding: auto;
+}
+
+.title {
+  font-size: 30px;
+  font-family: "jf-openhuninn-1.1";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+
+  color: #f5639c;
+  white-space: nowrap;
+  margin: 0% 10%;
+}
+.content {
+  font-size: 16px;
+  font-family: "jf-openhuninn-1.1";
+  font-weight: 400;
+  line-height: 16px;
+  white-space: nowrap;
+
+  color: #575757;
+  margin: 14% 10.5%;
+}
+
+.more {
+  font-family: "jf-openhuninn-1.1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.05em;
+  color: #575757;
+  margin: 7% 10%;
+  white-space: nowrap;
+}
+.price {
+  width: 135px;
+  padding: 0% 10%;
+  white-space: nowrap;
+  margin-top: -25%;
+  margin-left: 105%;
+  font-family: "jf-openhuninn-1.1";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 22px;
+
+  color: #f777a9;
+}
+
+.price-2 {
+  margin-left: 18%;
+}
+
+.wanted {
+  width: 400px;
+  margin: 6% 0%;
+}
+.choiceB {
+  margin-top: 2%;
+}
+.choice1 {
+  font-family: "jf-openhuninn-1.1";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #f777a9;
+  margin: 1% 9%;
+}
+
+.language {
+  font-family: "jf-openhuninn-1.1";
+  color: #f777a9;
+  box-sizing: border-box;
+  font-weight: 400;
+  margin: 2% 9%;
+  width: 450px;
+  height: 50px;
+
+  border: 1px solid #f777a9;
+  padding-left: 15px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+.contact p {
+  display: inline-block;
+}
+.count-btn {
+  cursor: pointer;
+}
+
+.quantity {
+  font-family: "jf-openhuninn-1.1";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #f777a9;
+  margin: 1% 9%;
+}
+
+.add-cal {
+  box-sizing: border-box;
+  border: 1px solid #f777a9;
+  color: #f777a9;
+  display: inline-block;
+  width: 450px;
+  height: 50px;
+  margin: 2% 9%;
+}
+
+.number {
+  margin-top: -8.2%;
+  margin-left: 48%;
+}
+.number input {
+  border: none;
+  color: #f777a9;
+  background-color: #ffffff;
+  width: 25px;
+  outline-color: #fff;
+}
+.increase {
+  width: 20%;
+  float: right;
+  margin-top: -8.5%;
+}
+.increase span {
+  border-left: 1px solid #f777a9;
+  width: 50px;
+  height: 49px;
+  margin-left: 45%;
+  padding-top: 13%;
+  padding-left: 12%;
+}
+
+.decrease span {
+  border-right: 1px solid #f777a9;
+  width: 50px;
+  height: 49px;
+  padding-top: 6%;
+  padding-left: 5.3%;
+}
+.cart {
+  width: 80%;
+  margin: 5%;
+  padding-left: 30%;
+  padding-top: 1%;
+}
+
+.cart input {
+  border: 0;
+  background-color: #f777a9;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart input:hover {
+  color: #ffffff;
+  background-color: #ff468d;
+  border: 2px #ff468d solid;
+}

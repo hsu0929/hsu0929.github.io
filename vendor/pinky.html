@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="zn-tw">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>會員專區-Pinky</title>
+    <link rel="icon" type="image-x-icon" href="./img/pinky.png" />
+    <link href="./css/reset.css" rel="stylesheet" />
+    <link href="./css/boostrap.css" rel="stylesheet"/>
+    <link href="./css/pinky.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!--上面那塊-->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./login.html"
+          ><img src="./img/title.png"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="tn-right">
+            <ul>
+              <li class="nav-item">
+                <a class="nav-link" href="./login.html">關於PINKY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">最新消息</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./yogurt.html">商品介紹</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pinky.html">會員專區</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">聯絡資訊</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--業千-->
+    <div class="page">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="tab-item" role="presentation">
+          <button
+            class="nav-link active"
+            id="mine-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#information-tab-pane"
+            type="button"
+            role="tab"
+            aria-controls="information-tab-pane"
+            aria-selected="true"
+          >
+            個人資料修改
+          </button>
+        </li>
+        <li class="tab-item" role="presentation">
+          <button
+            class="nav-link"
+            id="point-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#point-tab-pane"
+            type="button"
+            role="tab"
+            aria-controls="point-tab-pane"
+            aria-selected="false"
+          >
+            會員點數
+          </button>
+        </li>
+        <li class="tab-item" role="presentation">
+          <button
+            class="nav-link"
+            id="voucher-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#discounts-tab-pane"
+            type="button"
+            role="tab"
+            aria-controls="discounts-tab-pane"
+            aria-selected="false"
+          >
+            優惠卷
+          </button>
+        </li>
+        <li class="tab-item" role="presentation">
+          <button
+            class="nav-link"
+            id="car-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#cart-tab-pane"
+            type="button"
+            role="tab"
+            aria-controls="cart-tab-pane"
+            aria-selected="true"
+          >
+            購物車
+          </button>
+        </li>
+        <li class="tab-item" role="presentation">
+          <button
+            class="nav-link"
+            id="order-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#list-tab-pane"
+            type="button"
+            role="tab"
+            aria-controls="list-tab-pane"
+            aria-selected="true"
+          >
+            訂單
+          </button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div
+          class="tab-pane fade show active"
+          id="information-tab-pane"
+          role="tabpanel"
+          aria-labelledby="information-tab"
+          tabindex="0"
+        >
+          <div class="left-information">
+            <div class="costermer-name">
+              <img class="ci-display" src="./img/頭貼.png" />
+              <h4 class="ci-display">食琳真傻必傻必真</h4>
+            </div>
+            <div class="costermer-information">
+              <div class="information-title">
+                <img class="ci-display" src="./img/22-05 1.png" />
+                <h4 class="ci-display">會員資訊</h4>
+              </div>
+              <div class="information-item">
+                <div class="information-name">
+                  <p class="ci-display">姓名</p>
+                  <p class="gray-word">食琳羹</p>
+                </div>
+                <div class="information-email">
+                  <p class="ci-display">電郵</p>
+                  <p class="gray-word">judy.pppp@gmail.com</p>
+                </div>
+                <div class="information-phone">
+                  <p class="ci-display">手機號碼</p>
+                  <p class="gray-word phone-number">09787785478</p>
+                </div>
+                <div class="information-password">
+                  <p class="ci-display">密碼</p>
+                  <div class="ci-display password">
+                  <p class="ci-display gray-word">***************</p>
+                  <img class="ci-display" src="./img/01-04 1.png" />
+                </div>
+                </div>
+                 <div class="information-subscribe">
+                  <p class="ci-display">訂閱通知</p>
+                  <p class="ci-display subscribe">已訂閱</p>
+                </div>
+                <div class="information-gender">
+                  <p class="ci-display">性別</p>
+                  <p class="gray-word">女生</p>
+                </div>
+                <div class="information-birthday">
+                  <p class="ci-display">生日</p>
+                  <p class="gray-word">2022/11/7</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="changebotton" href="#">
+            <img src="./img/pen (2).png">
+            更改資料
+          </a>
+          <div class="right-information ci-display">
+              <div class="information-title">
+                <img class="ci-display" src="./img/pen.png" />
+                <h4 class="ci-display">更新會員資料</h4>
+              </div>
+              <div class="change-information">
+              <div class="change-item">
+                <div class="change-name">
+                <p class="ci-display">姓名</p>
+                <input class="ci-display" type="text" placeholder="食琳羹" />
+                </div>
+                <div class="change-email">
+                <p class="ci-display">電郵</p>
+                 <input
+                    class="ci-display"
+                    type="text"
+                    placeholder="judy.pppp@gmail.com">
+                </div>
+                 <div class="change-phone">
+                <p class="ci-display">手機號碼</p>
+                <p class="ci-display purple-word phone">更換手機號碼</p>
+                </div>
+                <div class="change-password">
+                <p class="ci-display">密碼</p>
+                <p class="ci-display purple-word">設定新的密碼</p>
+                </div>
+                <div class="change-subscribe">
+                <p class="ci-display">訂閱通知</p>
+                <div class="pink-checkbox ci-display"><input class="ci-display get-new" type="checkbox" />訂閱PINKY獲得最新消息</div>
+                </div>
+                <div class="change-gender">
+                <p class="ci-display">性別</p>
+                <div class="choice">
+                  <select class="language-pinky">
+                      <div class="flavor">
+                      <option value="#">請選擇性別</option>
+                      </div>
+                      <option value="a">男</option>
+                      <option value="b">女</option>
+                      <option value="c">其他</option>
+                </select>
+              </div>
+                </div>
+                <div class="change-birthday">
+                <p id="birth">生日</p>
+                <input class="choice-date-pinky"
+                          type="date" id="start" name="trip-start"
+                          value="2022-12-15"
+                          min="1980-01-01" max="2022-12-31">
+                </div>
+              <div class="layin-botton">
+                <div class="ci-display ">
+                  <input type="radio" id="nolayin" name="layin" />
+                  <label class="layin-botton1" for="nolayin">取消</lable>
+                </div>
+                <div class="ci-display">
+                  <input type="radio" id="yeslayin" name="layin" />
+                  <label class="layin-botton2" for="yeslayin">儲存變更</lable>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="point-tab-pane"
+          role="tabpanel"
+          aria-labelledby="point-tab"
+          tabindex="0"
+        >
+          <div class="member-point">
+            <div class="point">
+              <div class="now-point pr-display">
+                <p>現有總點數</p>
+                <h2 class="sixxx">666</h2>
+                <p class="sixxx">點</p>
+              </div>
+              <div class="point-botton pr-display">
+                <a href="#">點數使用說明</a>
+                <a href="#">兌換商品</a>
+              </div>
+            </div>
+            <div class="point-record">
+              <div class="pr-title">
+                <img class="pr-display" src="./img/亮F65294 1.png" />
+                <p class="pr-display">點數記錄</p>
+              </div>
+              <div class="record-element">
+                <p class="ci-display re-d">日期</p>
+                <p class="ci-display r-e">更動原因</p>
+                <p class="ci-display r-e">點數</p>
+                <p class="ci-display re-dd">到期日</p>
+              </div>
+              <div class="record-file">
+                <p class="ci-display r-f1">2022/11/06</p>
+                <p class="ci-display r-f2">註冊會員</p>
+                <p class="ci-display r-f3">+666</p>
+                <p class="ci-display r-f4">2023/11/06</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="discounts-tab-pane"
+          role="tabpanel"
+          aria-labelledby="discounts-tab"
+          tabindex="0"
+        >
+          <div class="secondtab">
+            <ul class="nav nav-tabs">
+              <li class="navitem">
+                <button
+                  class="nav-link"
+                  id="voucher-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#discounts-tab-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="discounts-tab-pane"
+                  aria-selected="false"
+                 >
+                  即將開始 (0)
+                 </button>
+              </li>
+              <li class="navitem ">
+                <button
+                  class="nav-link"
+                  id="voucher-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#discounts-tab-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="discounts-tab-pane"
+                  aria-selected="false"
+                 >
+                  可使用 (1)
+                 </button>
+              </li>
+              <li class="navitem">
+                 <button
+                  class="nav-link"
+                  id="voucher-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#discounts-tab-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="discounts-tab-pane"
+                  aria-selected="false"
+                 >
+                  已失效 (0)
+                 </button>
+              </li>
+            </ul>
+          </div>
+          
+           <div class="discount">
+            <p class="pink-discount">LINE 20</p>
+            <div class="discount-detail">
+              <p>僅網店使用</p>
+              <p>[ LINE連動限定 ] 限時再折20</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="cart-tab-pane"
+          role="tabpanel"
+          aria-labelledby="cart-tab"
+          tabindex="0"
+        >
+        <div class="buy-choose">
+          <div class="buy-title">
+            <p class="ci-display b-t1">商品資訊</p>
+            <p class="ci-display b-t2">數量</p>
+            <p class="ci-display b-t3">價錢</p>
+          </div>
+          <div class="buy-product ">
+            <div class="all-choose ci-display">
+             <input type="checkbox" class="ci-display" name="selectItem" />
+             </div>
+             <img class="ci-display b-p1" src="./img/800x 1.png" />
+             <div class="buypro">
+             <p class="b-p2">Pinky薄荷糖(葡萄) | 盒裝12入</p>
+            <select class="b-p3">
+              <div class="option5">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              </div>
+            </select>
+            </div>
+            <p class="ci-display b-p4">469</p>
+          </div>
+            <div class="buy-product2 ">
+              <div class="all-choose ci-display">
+               <input type="checkbox" class="ci-display"  name="selectItem" />
+               </div>
+               <img class="ci-display b-p1" src="./img/101 1.png" />
+            <div class="buypro2">
+               <p class="b-p2-2">優鮮酪益生菌軟糖(草莓) | 夾鏈包 | 盒裝12入</p>
+            <select class="b-p3-2">
+               <option>1</option>
+               <option>2</option>
+               <option>3</option>
+               <option>4</option>
+               <option>5</option>
+            </select>
+            </div>
+            <p class="ci-display b-p4-2">199</p>
+            </div>
+          <div class="allchoose">
+            <div class="all-choose ci-display"> 
+            <input type="checkbox" name="" id="selectAll" class="ci-display chall"/>
+            </div>
+            <h5 class="ci-display ac-1">全選</h5>
+            <p class="ci-display ac-2">總金額</p>
+            <p class="ci-display ac-3">199</p>
+            </div>
+          <a href="#" class="gobuy">前往結帳</a>
+        </div>
+         </div>
+        <div
+          class="tab-pane fade"
+          id="list-tab-pane"
+          role="tabpanel"
+          aria-labelledby="list-tab"
+          tabindex="0"
+        >
+          訂單
+          <div class="have-buy">
+            <div class="havebuy-title">
+             <p class="ci-display ht1">訂單內容</p>
+             <p class="ci-display ht2">總金額</p>
+            </div>
+            <div class="havebuy-item">
+             <img class="ci-display b-p1" src="./img/800x 1.png" />
+             <p class="ci-display twelvebox">Pinky薄荷糖(葡萄) | 盒裝12入 x 1 ...</p>
+             <p class="ci-display hb-price">469</p>
+             <div class="ci-display havebuy-item2">
+             <p class="ci-display hb-detail">備貨中</p>
+             <a class="ci-display" href="#">詳細內容</a>
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--下面那塊-->
+<div class="bottom-navigation">
+    <div class="cooperation-img">
+        <ul>
+          <li>
+            <a href="http://www.ucpharm.com.tw/" target="_blank">
+              <img src="./img/擷取 2.png" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twkoikeya.com.tw/" target="_blank">
+              <img src="./img/img_logo_karamucho 2.png" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/pinky.com.tw" target="_blank">
+              <img src="./img/fb 2.png" />
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank">
+              <img src="./img/line 白 2.png" />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="cooperation-word">
+        <div class="cw-t">
+          <p>五洲生醫股份有限公司/台灣粉紅股份有限公司</p>
+          <p>地址 : 10491台北市中山區明水路389-1號</p>
+          <p>電話：02 2532 9945</p>
+        </div>
+        <p class="cw-b">
+          台灣粉紅股份有限公司　版權所有© 2009 Taiwan Frente Company LTD. All
+          Rights Reserved.
+        </p>
+    </div>
+</div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="./js/pinky.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/check.js"></script>
+  </body>
+</html>

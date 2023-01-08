@@ -1,0 +1,40 @@
+li {
+  background-color: #f6bbbf;
+  border-top: 6px solid #f6bbbf;
+  border-left: 3px solid #f6bbbf;
+  border-right: 3px solid #f6bbbf;
+  border-radius: 10px 10px 0px 0px;
+}
+li #mine-tab {
+  border-left: 0px;
+}
+button {
+  width: 212px;
+}
+ul#myTab.nav.nav-tabs {
+  --bs-nav-tabs-border-width: 0px;
+  --bs-nav-tabs-border-color: #fe97c4;
+  --bs-nav-tabs-border-radius: 10px;
+  --bs-nav-tabs-link-hover-border-color: #f6bbbf #f6bbbf #f6bbbf;
+  --bs-nav-tabs-link-active-color: #fe97c4;
+  --bs-nav-tabs-link-active-bg: #fff;
+  --bs-nav-tabs-link-active-border-color: #f6bbbf #f6bbbf #fff;
+  --bs-nav-link-color: #fff(--bs-link-color);
+  --bs-nav-link-hover-color: #FE97C4(--bs-link-hover-color);
+}
+.page {
+  color: #fff;
+  box-sizing: border-box;
+  position: absolute;
+  width: 1320px;
+  height: 1020px;
+  left: 15%;
+  margin: 100px auto;
+  border-right: 6px solid #f6bbbf;
+  border-left: 6px solid #f6bbbf;
+  border-bottom: 6px solid #f6bbbf;
+  border-radius: 20px 20px 40px 40px;
+}
+.page {
+  font-family: "jf-openhuninn-1.1";
+}

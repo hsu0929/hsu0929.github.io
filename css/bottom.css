@@ -1,0 +1,33 @@
+/*下面那塊*/
+.bottom-wave{
+    width: 100%;
+}
+.bottom-navigation {
+    background-color: #f6bbbf;
+    background-size: contain;
+    padding-top: 7%;
+    padding-left: 7%;
+    margin-top: 0;
+  }
+  .cooperation-img li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 1%;
+  }
+  .cooperation-img li img {
+    height: 35px;
+  }
+  .cooperation-word {
+    padding-bottom: 50px;
+    padding-top: 3px;
+  }
+  .cooperation-word p {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "jf-openhuninn-1.1";
+    margin-top: 1%;
+    padding-left: 32px;
+  }
+  .cw-t {
+    margin-bottom: 90px;
+  }

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>會員註冊-pinky</title>
+    <link rel="icon" type="image/x-icon" href="./img/pinky.png">
+    <link href="./css/reset.css" rel="stylesheet">
+    <link href="./css/boostrap.css" rel="stylesheet">
+    <link href="./css/signup.css" rel="stylesheet">
+    <link href="./css/pinky.css" rel="stylesheet">
+</head>
+<body>
+  <!--上面那塊-->
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./login.html"
+        ><img src="./img/title.png"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="tn-right">
+          <ul>
+            <li class="nav-item">
+              <a class="nav-link" href="./login.html">關於PINKY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">最新消息</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./yogurt.html">商品介紹</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pinky.html">會員專區</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">聯絡資訊</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+    <!--登入-->
+    <div class="background">
+        <div class="login">
+            <div class="topic">
+                <img src="./img/star1.png"><h1>會員註冊</h1>
+            </div>
+            <div class="first">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4">
+                    <h2>姓名</h2>
+                    <input type="text" class="name" placeholder="姓名">
+                  </div>
+                  <div class="col-md-4">
+                    <h2>生日</h2>
+                    <input class="choice-date"
+                          type="date" id="start" name="trip-start"
+                          value="2022-12-15"
+                          min="1980-01-01" max="2022-12-31">
+                  </div>
+                  <div class="col-md-4">
+                    <h2>性別</h2>
+                    <div class="choice">
+                        <select class="language">
+                            <div class="flavor">
+                            <option value="#">請選擇性別</option>
+                            </div>
+                            <option value="a">男</option>
+                            <option value="b">女</option>
+                            <option value="c">其他</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="second">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h2>密碼</h2>
+                    <input type="text" class="password-sign" placeholder="密碼">
+                  </div>
+                  <div class="col-md-6">
+                    <h2>確認密碼</h2>
+                    <input type="text" class="password-sign" placeholder="確認密碼">
+                  </div>
+                  <p>* 最少6位，請勿使用與帳號或生日相同之密碼。*</p>
+                </div>
+              </div>
+            </div>
+            <div class="third">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <h2>Gmail</h2>
+                    <input type="text" class="gmail"placeholder="Gmail">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="fourth">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <h2>行動電話</h2>
+                    <input type="text" class="phone-sign" placeholder="+886">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom">
+              <a href="./pinky.html">註冊</a>
+          </div>
+        </div>
+      </div>
+<!-- JavaScript Bundle with Popper -->
+<script src="./js/jquery-3.6.1.min.js" ></script>
+<!-- JavaScript Bundle with Popper -->
+<script src="./js/pinky.js"></script>
+<script src="./js/jquery.js"></script>
+<script src="./js/check.js"></script>  
+</body>
+</html>
