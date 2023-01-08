@@ -201,7 +201,10 @@ input[type="checkbox"]::after {
   content: " ";
   border-radius: 3px;
 }
-
+a{
+  color: #e5508b;
+  text-decoration: none;
+}
 input[type="checkbox"]:checked::after {
   content: "✓";
   font-size: 10px;
