@@ -61,7 +61,7 @@ input:hover {
   width: 85%;
   display: flex;
 }
-.left-ad {
+.left-img {
   width: 644px;
   margin: 5% 2%;
   padding: auto;
@@ -278,7 +278,7 @@ input:hover {
   .down {
     flex-direction: column;
   }
-  .left-ad {
+  .left-img {
     width: 328px;
   }
   .right-content {
