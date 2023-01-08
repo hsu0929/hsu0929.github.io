@@ -60,7 +60,7 @@ input::placeholder{
     border-radius: 50px;
     padding: 2% 4%;
 }
-.choice{
+.choice-sign{
     margin-top: 4%;
 }
 .name{
@@ -162,6 +162,9 @@ label {
     .password-sign,.gmail,.phone-sign,.name{
         width: 80%;
     }
+    .gmail,.phone-sign{
+        padding: 4%;
+    }
     .choice-date,.language{
         width: 80%;
         text-align: center;
@@ -183,7 +186,7 @@ label {
         margin-top: 1%;
     }
     .choice-date{
-        padding: 2%;
+        padding: 2.5% 2%;
     }
 }
 
