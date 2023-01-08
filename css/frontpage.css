@@ -113,6 +113,9 @@ h4{
         font-size: 14px;
         display: inline-block;
         padding: 1%;
+        width: 70%;
+        text-align: center;
+        vertical-align: middle;
     }
     h2{
         display: none;
@@ -123,6 +126,7 @@ h4{
     .c-one,.c-two{
         width: 40%;
         height: 200px;
+        vertical-align: middle;
     }
     .c-two{
         display: inline-block;
@@ -133,6 +137,10 @@ h4{
     }
     .c-one img{
         width: 60%;
+    }
+    .c-two img{
+        padding-top: 5%;
+        padding-bottom: 10%;
     }
     .act-bottom,.news-bottom,.act-bottom{
         padding: 2%;
@@ -150,8 +158,10 @@ h4{
         padding: 1%;
     }
     .news-bottom .news-one img,.act-bottom .act-one img{
-        width: 20%;
+        width: 25%;
         padding: 3%;
-        text-align: right;
+    }
+    .news-one{
+        vertical-align: middle;
     }
 }
